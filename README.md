@@ -36,4 +36,27 @@ The Microservices Layer comprises these services:
 .Processes payment transactions and integrates with payment gateways.
 
 # Recommendation Engine:
-.Provides personalized
+Provides personalized recommendations based on user data and browsing history.
+
+# Database Layer
+.The Database Layer is where data is stored and managed:
+.Amazon RDS: Managed relational database service, likely used for storing critical user data, orders, and potentially product information.
+
+## DynamoDB:
+.NoSQL database, often used for high-volume, low-latency data storage such as session data, user preferences, or real-time updates.
+
+## ElastiCache:
+.In-memory caching service, used to store frequently accessed data for faster retrieval.
+
+# Security Layer
+• The Security Layer ensures application security:
+
+## Security Layer
+
+The Security Layer ensures application security:
+
+.AWS CloudWatch: Monitoring service for tracking performance metrics and identifying potential issues.
+
+.AWS IAM: Identity and Access Management service, used to control access to AWS resources.
+
+.AWS WAF: Web Application Firewall, protecting against common web attacks such as SQL injection and cross-site scripting (XSS).

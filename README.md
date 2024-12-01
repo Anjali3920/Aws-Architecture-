@@ -60,3 +60,7 @@ The Security Layer ensures application security:
 .AWS IAM: Identity and Access Management service, used to control access to AWS resources.
 
 .AWS WAF: Web Application Firewall, protecting against common web attacks such as SQL injection and cross-site scripting (XSS).
+
+# FLOWCHART DIAGRAM OF ARCHITECTURE 
+![Screenshot_2024_1118_131103](https://github.com/user-attachments/assets/09fd4721-0b7b-4205-816d-c38134f6d80e)
+
